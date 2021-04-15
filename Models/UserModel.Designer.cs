@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'c:\users\navtech\documents\visual studio 2015\Projects\WebApplication11\WebApplication11\Models\UserModel.edmx'. 
+﻿// T4 code generation is enabled for model 'c:\users\navtech\documents\visual studio 2015\Projects\WebApplication13\WebApplication13\Models\UserModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

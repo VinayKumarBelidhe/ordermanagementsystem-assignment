@@ -7,17 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication11.Models
+namespace WebApplication13.Models
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    using System.Linq;
-
-    public partial class OrderManagementSystemEntities : DbContext
+    
+    public partial class OrderManagementSystemsEntities : DbContext
     {
-        public OrderManagementSystemEntities()
-            : base("name=OrderManagementSystemEntities")
+        public OrderManagementSystemsEntities()
+            : base("name=OrderManagementSystemsEntities")
         {
         }
     
@@ -27,6 +26,5 @@ namespace WebApplication11.Models
         }
     
         public virtual DbSet<User> Users { get; set; }
-        public IQueryable<Product> Products { get; internal set; }
     }
 }
