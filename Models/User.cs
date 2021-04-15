@@ -7,17 +7,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication11.Models
+namespace WebApplication13.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public  class User
+    public partial class User
     {
         public int Userid { get; set; }
         public string Address { get; set; }
         public string Email { get; set; }
         public string Loginname { get; set; }
         public string Password { get; set; }
+    
+        public virtual Order Order { get; set; }
     }
 }

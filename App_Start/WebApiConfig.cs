@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
-using System.Web.Http.Cors;
 
-namespace WebApplication11
+namespace WebApplication13
 {
     public static class WebApiConfig
     {
@@ -20,7 +19,6 @@ namespace WebApplication11
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-            config.EnableCors(new EnableCorsAttribute("*", "*", "GET,PUT,POST,DELETE"));
         }
     }
 }

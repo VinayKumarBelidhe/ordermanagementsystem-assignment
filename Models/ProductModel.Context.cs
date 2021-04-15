@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication11.Models
+namespace WebApplication13.Models
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class OrderManagementSystemEntities3 : DbContext
+    public partial class OrderManagementSystemsEntities1 : DbContext
     {
-        public OrderManagementSystemEntities3()
-            : base("name=OrderManagementSystemEntities3")
+        public OrderManagementSystemsEntities1()
+            : base("name=OrderManagementSystemsEntities1")
         {
         }
     
